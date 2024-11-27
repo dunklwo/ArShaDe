@@ -1,2 +1,3 @@
 # ArShaDe
 A Group project on Cryptography
+This project provides a C++ framework for encrypting and decrypting data at three levels: basic, intermediate, and advanced. The Caesar cipher is used at the basic level, with letters moving according to a defined key. The intermediate level combines Morse code and the Caesar cipher, with the message first encrypted with the Caesar cipher and then converted to Morse code. The advanced level implements RSA encryption, which encrypts data with a public key and decrypts it with a private key. The framework enables users to select the required encryption level, encrypt data, then decrypt it using the right key at each step.
